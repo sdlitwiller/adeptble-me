@@ -3,7 +3,7 @@ id: AdeptBLE
 name: AdeptBLE
 type: shield
 url: https://github.com/taichan1113/mouse-test
-requires: [xiao_ble]
+requires: [xiao_ble//zmk]
 features:
   - keys
   - pointer
