@@ -22,3 +22,6 @@ include:
     shield: adeptble
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: xiao_ble//zmk
+    shield: adeptble settings_reset
+    artifact-name: adeptble_settings_reset
