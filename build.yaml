@@ -19,6 +19,6 @@
 ---
 include:
   - board: xiao_ble//zmk
-    shield: AdeptBLE
+    shield: adeptble
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
